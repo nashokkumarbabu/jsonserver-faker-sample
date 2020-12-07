@@ -1,0 +1,9 @@
+{
+  "main": "index.js",
+  "author": "",
+  "license": "",
+  "dependencies": {
+    "faker": "^5.1.0",
+    "lodash": "^4.17.20"
+  }
+}
