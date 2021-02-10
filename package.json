@@ -4,6 +4,10 @@
   "license": "",
   "dependencies": {
     "faker": "^5.1.0",
+    "json-schema-faker": "^0.5.0-rcv.32",
     "lodash": "^4.17.20"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.3"
   }
 }

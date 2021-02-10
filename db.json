@@ -1,0 +1,54 @@
+{
+  "workgroup": [
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Rashawn", "lastName": "Sporer", "age": 58 }
+    },
+    {
+      "skills": {},
+      "status": "working",
+      "profile": { "firstName": "Alysa", "lastName": "Welch", "age": 39 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Allie", "lastName": "Hackett", "age": 50 }
+    },
+    {
+      "skills": {},
+      "status": "working",
+      "profile": { "firstName": "Meggie", "lastName": "Feil", "age": 32 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Lou", "lastName": "Williamson", "age": 53 }
+    },
+    {
+      "skills": {},
+      "status": "working",
+      "profile": { "firstName": "Gavin", "lastName": "Lang", "age": 28 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Nash", "lastName": "Schulist", "age": 19 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Edna", "lastName": "Ankunding", "age": 44 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Nathanael", "lastName": "Stracke", "age": 42 }
+    },
+    {
+      "skills": {},
+      "status": "available",
+      "profile": { "firstName": "Donavon", "lastName": "Langosh", "age": 29 }
+    }
+  ]
+}
