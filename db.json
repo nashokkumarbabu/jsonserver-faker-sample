@@ -3,52 +3,128 @@
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Rashawn", "lastName": "Sporer", "age": 58 }
+      "profile": {
+        "firstName": "Rashawn",
+        "lastName": "Sporer",
+        "age": 58
+      }
     },
     {
       "skills": {},
       "status": "working",
-      "profile": { "firstName": "Alysa", "lastName": "Welch", "age": 39 }
+      "profile": {
+        "firstName": "Alysa",
+        "lastName": "Welch",
+        "age": 39
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Allie", "lastName": "Hackett", "age": 50 }
+      "profile": {
+        "firstName": "Allie",
+        "lastName": "Hackett",
+        "age": 50
+      }
     },
     {
       "skills": {},
       "status": "working",
-      "profile": { "firstName": "Meggie", "lastName": "Feil", "age": 32 }
+      "profile": {
+        "firstName": "Meggie",
+        "lastName": "Feil",
+        "age": 32
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Lou", "lastName": "Williamson", "age": 53 }
+      "profile": {
+        "firstName": "Lou",
+        "lastName": "Williamson",
+        "age": 53
+      }
     },
     {
       "skills": {},
       "status": "working",
-      "profile": { "firstName": "Gavin", "lastName": "Lang", "age": 28 }
+      "profile": {
+        "firstName": "Gavin",
+        "lastName": "Lang",
+        "age": 28
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Nash", "lastName": "Schulist", "age": 19 }
+      "profile": {
+        "firstName": "Nash",
+        "lastName": "Schulist",
+        "age": 19
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Edna", "lastName": "Ankunding", "age": 44 }
+      "profile": {
+        "firstName": "Edna",
+        "lastName": "Ankunding",
+        "age": 44
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Nathanael", "lastName": "Stracke", "age": 42 }
+      "profile": {
+        "firstName": "Nathanael",
+        "lastName": "Stracke",
+        "age": 42
+      }
     },
     {
       "skills": {},
       "status": "available",
-      "profile": { "firstName": "Donavon", "lastName": "Langosh", "age": 29 }
+      "profile": {
+        "firstName": "Donavon",
+        "lastName": "Langosh",
+        "age": 29
+      }
+    },
+    {
+      "id": "sdf",
+      "skills": {},
+      "status": "available",
+      "profile": {
+        "firstName": "Ashish",
+        "lastName": "S",
+        "age": 25
+      }
+    }
+  ],
+  "trayitems": [
+    {
+      "name": "sqaure",
+      "icon": "CheckBoxOutlineBlankOutlinedIcon"
+    },
+    {
+      "name": "circle",
+      "icon": "RadioButtonUncheckedOutlinedIcon"
+    },
+    {
+      "name": "triangle",
+      "icon": "ChangeHistoryOutlinedIcon"
+    },
+    {
+      "name": "star",
+      "icon": "GradeOutlinedIcon"
+    },
+    {
+      "name": "setting",
+      "icon": "ExtensionOutlinedIcon"
+    },
+    {
+      "name": "react",
+      "icon": "FilterVintageOutlinedIcon"
     }
   ]
 }
