@@ -103,8 +103,11 @@
   ],
   "trayitems": [
     {
-      "name": "sqaure",
-      "icon": "CheckBoxOutlineBlankOutlinedIcon"
+      "compName": "sqaure",
+      "compId":"",
+      "template": "",
+      "icon": "CheckBoxOutlineBlankOutlinedIcon",
+      "svgIcon": ""
     },
     {
       "name": "circle",
@@ -125,6 +128,128 @@
     {
       "name": "react",
       "icon": "FilterVintageOutlinedIcon"
+    }
+  ],
+  "components": [
+    {
+      "id":"",
+      "description":"",
+      "compId": "db-comp",
+      "name": "DB",
+      "allowedConnections": ["mysql-comp"],
+      "trait": {
+        "schema": {
+          "title": "DB Component",
+          "description": "DB Component.",
+          "type": "object",
+          "required": ["dbUrl", "hostname","username","password"],
+          "properties": {
+            "dbUrl": {
+              "type": "string",
+              "title": "DB Url"
+            },
+            "hostname": {
+              "type": "string",
+              "title": "Hostname"
+            },
+            "username": {
+              "type": "string",
+              "title": "Username"
+              
+            },
+            "password": {
+              "type": "string",
+              "title": "Password"
+            }
+          }
+        },
+        "ui-schema": {
+          "dbUrl": {
+            "ui:autofocus": true,
+            "ui:emptyValue": ""
+         
+          },
+          "hostname": {
+            "ui:emptyValue": ""
+           
+          },
+          "username": {
+            "ui:emptyValue": ""
+          },
+          "password": {
+            "ui:emptyValue": ""
+          }
+        }
+      },
+      "view": {
+        "tray": {
+          "template": "",
+          "icon": "CheckBoxOutlineBlankOutlinedIcon",
+          "svgIcon": ""
+        },
+        "canvas": {
+          "short": {
+            "color": "",
+            "shape": "rounded-square",
+            "template": ""
+          },
+          "expanded": {
+            "color": "",
+            "shape": "rounded-square",
+            "template": ""
+          }
+        }
+      },
+      "model": {
+        "properties": {
+          "dbUrl": "",
+          "hostname": "",
+          "username": "",
+          "password": ""
+        }
+      },
+      "tags": ["db"],
+      "created": "",
+      "updated": "",
+      "createdBy": "",
+      "updatedBy": ""
+    },
+    {
+      "id": "",
+      "compId": "mysql-comp",
+      "name": "MYSQL",
+      "allowedConnections": ["db-comp"],
+      "trait": {
+        "schema": {},
+        "ui-schema": {}
+      },
+      "view": {
+        "block": {
+          "template": "",
+          "icon": "CheckBoxOutlineBlankOutlinedIcon",
+          "svgIcon": ""
+        },
+        "canvas": {
+          "short": {
+            "color": "",
+            "shape": "rounded-square",
+            "template": ""
+          },
+          "expanded": {
+            "color": "",
+            "shape": "rounded-square",
+            "template": ""
+          }
+        }
+      },
+      "model": {
+        "properties": {}
+      },
+      "tags": ["db", "mysql"],
+      "created": "",
+      "updated": "",
+      "createdBy": "",
+      "updatedBy": ""
     }
   ]
 }
