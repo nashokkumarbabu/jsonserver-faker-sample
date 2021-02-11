@@ -104,7 +104,7 @@
   "trayitems": [
     {
       "compName": "sqaure",
-      "compId":"",
+      "compId":"db-comp",
       "template": "",
       "icon": "CheckBoxOutlineBlankOutlinedIcon",
       "svgIcon": ""
@@ -130,7 +130,7 @@
       "icon": "FilterVintageOutlinedIcon"
     }
   ],
-  "components": [
+  "componentdefs": [
     {
       "id":"",
       "description":"",
@@ -185,7 +185,7 @@
         "tray": {
           "template": "",
           "icon": "CheckBoxOutlineBlankOutlinedIcon",
-          "svgIcon": ""
+          "svgIcon": "<svg width='58' height='58' viewBox='0 0 58 58' fill='none' xmlns='http://www.w3.org/2000/svg'><g filter='url(#filter0_d)'><path d='M29 0C15.2154 0 4 11.2154 4 25C4 38.7846 15.2154 50 29 50C42.7846 50 54 38.7846 54 25C54 11.2154 42.7846 0 29 0ZM29 3.84615C40.6635 3.84615 50.1538 13.3365 50.1538 25C50.1538 36.6635 40.6635 46.1538 29 46.1538C17.3365 46.1538 7.84615 36.6635 7.84615 25C7.84615 13.3365 17.3365 3.84615 29 3.84615ZM26.1154 11.5385C25.3503 11.5385 24.6166 11.8424 24.0757 12.3833C23.5347 12.9243 23.2308 13.658 23.2308 14.4231C23.2308 15.1881 23.5347 15.9218 24.0757 16.4628C24.6166 17.0038 25.3503 17.3077 26.1154 17.3077C26.8804 17.3077 27.6141 17.0038 28.1551 16.4628C28.6961 15.9218 29 15.1881 29 14.4231C29 13.658 28.6961 12.9243 28.1551 12.3833C27.6141 11.8424 26.8804 11.5385 26.1154 11.5385ZM18.4231 19.2308C17.658 19.2308 16.9243 19.5347 16.3833 20.0757C15.8424 20.6166 15.5385 21.3503 15.5385 22.1154C15.5385 22.8804 15.8424 23.6141 16.3833 24.1551C16.9243 24.6961 17.658 25 18.4231 25C19.1881 25 19.9218 24.6961 20.4628 24.1551C21.0038 23.6141 21.3077 22.8804 21.3077 22.1154C21.3077 21.3503 21.0038 20.6166 20.4628 20.0757C19.9218 19.5347 19.1881 19.2308 18.4231 19.2308ZM28.0385 21.1538C27.2734 21.1538 26.5397 21.4578 25.9987 21.9987C25.4578 22.5397 25.1538 23.2734 25.1538 24.0385C25.1538 24.8035 25.4578 25.5372 25.9987 26.0782C26.5397 26.6192 27.2734 26.9231 28.0385 26.9231C28.8035 26.9231 29.5372 26.6192 30.0782 26.0782C30.6192 25.5372 30.9231 24.8035 30.9231 24.0385C30.9231 23.2734 30.6192 22.5397 30.0782 21.9987C29.5372 21.4578 28.8035 21.1538 28.0385 21.1538V21.1538Z' fill='black'/></g><defs><filter id='filter0_d' x='0' y='0' width='58' height='58' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0'/><feOffset dy='4'/><feGaussianBlur stdDeviation='2'/><feColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0'/><feBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow'/><feBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow' result='shape'/></filter></defs></svg>"
         },
         "canvas": {
           "short": {
@@ -251,5 +251,77 @@
       "createdBy": "",
       "updatedBy": ""
     }
+  ],
+  "projects": [
+    {
+      "id" : "",
+      "created": "",
+      "updated": "",
+      "createdBy": "",
+      "updatedBy": "",
+      "name":"Assessor",
+      "icon":"",
+      "tags":"",
+      "configurationTemplates": [],
+      "shareSettings": {},
+      "modules":[
+        {
+          "id":"",
+          "name":""
+        }
+      ]
+    }
+  ],
+  "modules":[
+    {
+      "id":"",
+      "created": "",
+      "updated": "",
+      "createdBy": "",
+      "updatedBy": "",
+      "name":"",
+      "type":"", /* ( root, application, design, database, infrastructure,)*/
+      "templateId" : "",
+      "components" : [
+          {
+            "id":"",
+            "componentDefId" : "db-comp",
+            "model": {
+              "properties": {}
+            },
+            "configurationTemplateId" :""
+          }
+
+      ],
+      "connections" : [
+        {
+          "type" :"",
+          "inComp" : "",
+          "outComp" : "",
+          "label":""
+
+        }
+      ],
+      "views" :{
+        "default" : {
+            "serializedGraph" : {}
+        }
+      }
+
+    }
+  ],
+  "configurationTemplates":[
+    {
+      "id":"",
+      "componentDefId" : "db-comp",
+      "model": {
+        "properties": {}
+      }
+    }
   ]
 }
+
+
+Configuration templates 
+    - componentDefId,
+    - model
